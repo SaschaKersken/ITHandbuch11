@@ -1,90 +1,85 @@
 <?php
 
 class Api {
-  protected $xml = NULL;
-  protected $contentType = "text/xml";
-  protected $statusCode = 200;
-  protected $statusMessage = "OK";
+  protected $requestFormat = 'xml';
+  protected $responseFormat = 'xml';
+  protected $headersOnly = FALSE;
+  protected $response = NULL;
+
+  public function __construct($requestFormat = 'xml', $responseFormat = 'xml', $headersOnly = FALSE) {
+    if ($requestFormat == 'json') {
+      $this->requestFormat = 'json';
+    }
+    if ($responseFormat == 'json') {
+      $this->responseFormat = 'json';
+    }
+    $this->headersOnly = $headersOnly;
+  }
 
   public function get($elements) {
-    return $this->notImplemented();
+    $this->notImplemented();
   }
 
   public function post($elements) {
-    return $this->notImplemented();
+    $this->notImplemented();
   }
 
   public function put($elements) {
-    return $this->notImplented();
+    $this->notImplented();
   }
 
   public function delete($elements) {
-    return $this->notImplemented();
+    $this->notImplemented();
   }
 
-  public function contentType($type = NULL) {
-    if ($type !== NULL) {
-      $this->contentType = $type;
+  public function ok($body) {
+    header("HTTP/1.1 200 OK");
+    $this->output($body);
+  }
+
+  public function notFound() {
+    header("HTTP/1.1 404 Not found");
+    $this->output(
+      'The requested resource could not be found.',
+      'error'
+    );
+  }
+
+  public function badRequest($message = '') {
+    header("HTTP/1.1 400 Bad request");
+    $this->output(
+      empty($message) ? 'This request is formally incorrect.' : $message,
+      'error'
+    );
+  }
+
+  public function forbidden() {
+    header("HTTP/1.1 403 Forbidden");
+    $this->output(
+      'You are not allowed to access this resource. User='.$_GET['user'].', Key='.$_GET['key'].'/'.md5($_GET['key']).', '.($_GET['user'] == AUTH_USER ? 'User OK' : 'User NOT OK').', '.(md5($_GET['key']) == AUTH_KEY ? ', Key OK' : ', Key NOT OK'),
+      'error'
+    );
+  }
+
+  public function notImplemented() {
+    header("HTTP/1.1 501 Not implemented");
+    $this->output(
+      'This request method is not implemented.',
+      'error'
+    );
+  }
+
+  public function output($message, $type = NULL) {
+    $this->sendCorsHeaders();
+    $responseFormattedMessage = $message;
+    if (!is_null($type)) {
+      $responseFormattedMessage = $this->response()->message($message, $type);
     }
-    return $this->contentType;
-  }
-
-  public function statusCode($code = NULL) {
-    if ($code !== NULL) {
-      $this->statusCode = $code;
+    header(sprintf("Content-type: %s", $this->contentType()));
+    header(sprintf("Content-length: %d", strlen($responseFormattedMessage)));
+    if (!$this->headersOnly) {
+      echo $responseFormattedMessage;
     }
-    return $this->statusCode;
-  }
-
-  public function statusMessage($message = NULL) {
-    if ($message !== NULL) {
-      $this->statusMessage = $message;
-    }
-    return $this->statusMessage;
-  }
-
-  protected function notFound() {
-    $this->statusCode(404);
-    $this->statusMessage('Not found');
-    return $this
-      ->xml()
-      ->getElement(
-          'The requested resource could not be found.',
-          'error'
-        );
-  }
-
-  protected function badRequest($message = '') {
-    $this->statusCode(400);
-    $this->statusMessage('Bad request');
-    return $this
-      ->xml()
-      ->getElement(
-          empty($message) ? 'This request is formally incorrect.' : $message,
-          'error'
-        );
-  }
-
-  protected function notImplemented() {
-    $this->statusCode(501);
-    $this->statusMessage('Not implemented');
-    return $this
-      ->xml()
-      ->getElement(
-          'This request method is not implemented.',
-          'error'
-        );
-  }
-
-  protected function forbidden() {
-    $this->statusCode(403);
-    $this->statusMessage('Forbidden');
-    return $this
-      ->xml()
-      ->getElement(
-          'You are not allowed to access this resource.',
-          'error'
-        );
   }
 
   protected function checkAuthorization() {
@@ -98,12 +93,26 @@ class Api {
     return $result;
   }
 
-  public function xml($xml = NULL) {
-    if ($xml !== NULL) {
-      $this->xml = $xml;
-    } elseif ($this->xml === NULL) {
-      $this->xml = new Xml();
+  public function sendCorsHeaders() {
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, HEAD");
+    header("Access-Control-Allow-Headers: Content-Type");
+  }
+
+  public function contentType() {
+    $contentType = 'text/xml';
+    if ($this->responseFormat == 'json') {
+      $contentType = 'application/json';
     }
-    return $this->xml;
+    return $contentType;
+  }
+
+  public function response($response = NULL) {
+    if (!is_null($response)) {
+      $this->response = $response;
+    } elseif (is_null($response)) {
+      $this->response = new Response($this->responseFormat);
+    }
+    return $this->response;
   }
 }

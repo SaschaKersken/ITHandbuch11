@@ -2,8 +2,8 @@
 // Datenbank
 define('HOST', 'localhost');
 define('DATABASE', 'programming_languages');
-define('USER', 'dbuser');
-define('PASSWORD', 'geheim');
+define('USER', 'php_user');
+define('PASSWORD', 'D8abase!');
 define('INIT_QUERY', 'SET NAMES UTF8');
 
 // Autorisierung

@@ -1,7 +1,14 @@
 <?php
 
 class Dba extends Database {
-  protected $fields = array();
+  protected $format = 'xml';
+  protected $fields = [];
+
+  public function __construct($format = 'xml') {
+    if ($format == 'json') {
+      $this->format = 'json';
+    }
+  }
 
   protected function recordToResult($record, $fields = NULL) {
     if ($fields === NULL) {

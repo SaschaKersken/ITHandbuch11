@@ -53,6 +53,7 @@ class LanguageDba extends Dba {
   }
 
   public function create($data) {
+    var_dump('DATA', $data, 'RECORD', $this->resultToRecord($data));
     return $this->insertQuery('languages', $this->resultToRecord($data));
   }
 
@@ -71,8 +72,13 @@ class LanguageDba extends Dba {
     return $this->getAffectedRows();
   }
 
-  public function parse($rawXml) {
-    return $this->xml()->parse($rawXml, $this->fields);
+  public function parse($rawData) {
+    if ($this->format == 'json') {
+      $result = (array)json_decode($rawData);
+    } else {
+      $result = $this->xml()->parse($rawData, $this->fields);
+    }
+    return $result;
   }
 
   public function xml($xml = NULL) {

@@ -2,7 +2,7 @@
 
 class Xml {
   public function getRecords($records, $root = 'result', $line = 'record') {
-    $result = '<?xml version="1.0" encoding="utf-8" standalone="yes"?>';
+    $result = '<?xml version="1.0" encoding="utf-8"?>';
     $result .= sprintf('<%s>', $root);
     foreach ($records as $id => $record) {
       $result .= sprintf('<%s id="%d">', $line, $id);
@@ -20,7 +20,7 @@ class Xml {
   }
 
   public function getRecord($record, $line = 'record') {
-    $result = '<?xml version="1.0" encoding="utf-8" standalone="yes"?>';
+    $result = '<?xml version="1.0" encoding="utf-8"?>';
     $result .= sprintf('<%s>', $line);
     foreach ($record as $field => $value) {
       $result .= sprintf(
@@ -34,7 +34,7 @@ class Xml {
   }
 
   public function getElement($text, $element = 'message') {
-    $result = '<?xml version="1.0" encoding="utf-8" standalone="yes"?>';
+    $result = '<?xml version="1.0" encoding="utf-8"?>';
     $result .= sprintf(
       '<%1$s>%2$s</%1$s>',
       htmlspecialchars($element),
@@ -44,7 +44,7 @@ class Xml {
   }
 
   public function parse($xml, $fields) {
-    $result = array();
+    $result = [];
     $record = new SimpleXMLElement($xml);
     foreach ($fields as $field) {
       if ($record->{$field} != NULL && !empty((string)$record->{$field})) {
