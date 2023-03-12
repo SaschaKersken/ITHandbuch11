@@ -53,7 +53,6 @@ class LanguageDba extends Dba {
   }
 
   public function create($data) {
-    var_dump('DATA', $data, 'RECORD', $this->resultToRecord($data));
     return $this->insertQuery('languages', $this->resultToRecord($data));
   }
 

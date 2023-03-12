@@ -37,14 +37,6 @@ class Api {
     $this->output($body);
   }
 
-  public function notFound() {
-    header("HTTP/1.1 404 Not found");
-    $this->output(
-      'The requested resource could not be found.',
-      'error'
-    );
-  }
-
   public function badRequest($message = '') {
     header("HTTP/1.1 400 Bad request");
     $this->output(
@@ -56,7 +48,15 @@ class Api {
   public function forbidden() {
     header("HTTP/1.1 403 Forbidden");
     $this->output(
-      'You are not allowed to access this resource. User='.$_GET['user'].', Key='.$_GET['key'].'/'.md5($_GET['key']).', '.($_GET['user'] == AUTH_USER ? 'User OK' : 'User NOT OK').', '.(md5($_GET['key']) == AUTH_KEY ? ', Key OK' : ', Key NOT OK'),
+      'You are not allowed to access this resource.',
+      'error'
+    );
+  }
+
+  public function notFound() {
+    header("HTTP/1.1 404 Not found");
+    $this->output(
+      'The requested resource could not be found.',
       'error'
     );
   }
@@ -96,7 +96,7 @@ class Api {
   public function sendCorsHeaders() {
     header("Access-Control-Allow-Origin: *");
     header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, HEAD");
-    header("Access-Control-Allow-Headers: Content-Type");
+    header("Access-Control-Allow-Headers: Accept, Content-Type");
   }
 
   public function contentType() {

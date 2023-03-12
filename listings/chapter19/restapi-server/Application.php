@@ -1,46 +1,47 @@
 <?php
 
-class Application {
-  public function run() {
-    $requestFormat = 'xml';
-    $responseFormat = 'xml';
-    if (isset($_SERVER['HTTP_CONTENT_TYPE']) &&
-        $_SERVER['HTTP_CONTENT_TYPE'] == 'application/json') {
-      $requestFormat = 'json';
+class Response {
+  private $format = 'xml';
+
+  private $xml = NULL;
+
+  public function __construct($format = 'xml') {
+    if ($format == 'json') {
+      $this->format = 'json';
     }
-    if (isset($_SERVER['HTTP_ACCEPT']) &&
-        $_SERVER['HTTP_ACCEPT'] == 'application/json') {
-      $responseFormat = 'json';
+  }
+
+  public function getRecords($records, $root = 'result', $line = 'record') {
+    if ($this->format == 'xml') {
+      return $this->xml()->getRecords($records, $root, $line);
+    } else {
+      return json_encode(array_values($records));
     }
-    $path = strtok($_SERVER['REQUEST_URI'], '?');
-    $elements = preg_split('(/)', $path);
-    while (count($elements) > 0 && empty($elements[0])) {
-      array_shift($elements);
+  }
+
+  public function getRecord($record, $line = 'record') {
+    if ($this->format == 'xml') {
+      return $this->xml()->getRecord($record, $line);
+    } else {
+      return json_encode($record);
     }
-    $classname = ucfirst(array_shift($elements));
-    $method = strtolower($_SERVER['REQUEST_METHOD']);
-    $headersOnly = FALSE;
-    if ($method == 'options') {
-      $api = new Api($requestFormat, $responseFormat);
-      header("HTTP/1.1 200 OK");
-      $api->sendCorsHeaders();
-      return;
+  }
+
+  public function message($content, $type) {
+    if ($this->format == 'json') {
+      $result = sprintf('{"%s": "%s"}', $type, $content);
+    } else {
+      $result = $this->xml()->getElement($content, $type);
     }
-    if ($method == 'head') {
-      $method = 'get';
-      $headersOnly = TRUE;
+    return $result;
+  }
+
+  public function xml($xml = NULL) {
+    if ($xml !== NULL) {
+      $this->xml = $xml;
+    } elseif ($this->xml === NULL) {
+      $this->xml = new Xml();
     }
-    if (!class_exists($classname)) {
-      $api = new Api($requestFormat, $responseFormat);
-      $api->notFound();
-      return;
-    }
-    $instance = new $classname($requestFormat, $responseFormat, $headersOnly);
-    if (!method_exists($instance, $method)) {
-      $instance->notImplemented();
-      return;
-    }
-    $instance->$method($elements);
+    return $this->xml;
   }
 }
-

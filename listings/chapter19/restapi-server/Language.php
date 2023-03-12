@@ -14,7 +14,7 @@ class Language extends Api {
   public function post($elements) {
     if (!$this->checkAuthorization()) {
       $this->forbidden();
-      exit();
+      return;
     }
     $raw = file_get_contents('php://input');
     if (!empty($raw)) {
