@@ -9,7 +9,7 @@ for x_i in x:
 
 plt.axis([-5, 5, -2, 26])
 plt.plot(x,y)
-plt.title("f(x)=x^2-1")
+plt.title("$f(x)=x^{2}-1$")
 plt.xlabel('x')
 plt.ylabel('y')
 plt.grid()
