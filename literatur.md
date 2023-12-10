@@ -1,6 +1,8 @@
 # Kommentiertes Literatur- und Linkverzeichnis
-_Hinweise_: Die Links zu Amazon und zum Rheinwerk Verlag sind Affiliate-Links. Das bedeutet, dass ich eine Provision erhalte, wenn Sie die Bücher darüber bestellen.
-Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provision gleich.
+_Hinweise_: Die Links zu Amazon und zum Rheinwerk Verlag sind Affiliate-Links. Das bedeutet, dass ich eine Provision erhalte, wenn Sie die Bücher darüber bestellen.<br />
+Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provision gleich.<br />
+<br />Bei Rheinwerk-Büchern lohnt es sich stets, sie über den Verlag statt bei Amazon zu bestellen, denn die Lieferung erfolgt schnell, versandkostenfrei - und vor allem können Sie für nur 5 Euro Aufpreis auf das gedruckte Buch ein Bundle erwerben, in dem das zugehörige E-Book gleich mit enthalten ist. Beim IT-Handbuch mit über 1.400 Seiten ist es beispielsweise praktisch, es ohne schweres Schleppen überall hin mitnehmen zu können.<br />
+<br />Ganz allgemein gilt, dass viele Fachbücher sehr teuer sind - oft je spezialisierter, desto teurer. Es lohnt sich, öffentliche Bibliotheken (inklusive Onleihe, also E-Book-Ausleihe) in Anspruch zu nehmen oder zu überprüfen, ob Berufsschule, (Fach-)Hochschule oder Ausbildungsbetrieb Online-Zugänge zu Fachliteratur abonniert haben.
 
 ## Allgemeine Einführungen und Überblicke
 ### Bücher
@@ -71,3 +73,34 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
   [https://www.tomshardware.com](https://www.tomshardware.com)<br />
   Einkaufsberatung, Praxistests, Tipps und Lexikon zu aktueller PC-Hardware.
 
+## Betriebssysteme
+### Bücher
+- Tanenbaum, Andrew S.; Bos, Herbert: **Moderne Betriebssysteme**, 4. Auflage. München 2016, Pearson Studium.<br />
+  In diesem Buch wird zunächst in zahlreichen interessanten Kapiteln die gesamte Theorie der Betriebssystemtechnik geschildert: Prozess- und Speichermanagement, Gerätetreiber, Dateisysteme etc. Anschließend werden die beiden konkreten Beispiele Linux und Windows genauer untersucht. Hinweis: Viele Leser*innen raten von der deutschen Übersetzung ab; leider ist das englische Original, "Modern Operating Systems", meist noch teurer.
+  <br />[Bei Amazon bestellen](https://amzn.to/3Rfwvda)
+-	Heiting, Mareile: **Windows 11 – Das große Handbuch**. Bonn 2022, Vierfarben (Rheinwerk Verlag).<br />
+  Ein sehr ausführliches Handbuch zu Windows 11.
+ 	<br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/windows-11-das-grosse-handbuch/?GPP=kersken)
+ 	<br />[Bei Amazon bestellen](https://amzn.to/41e96NW)
+- Kloep, Peter et al.: **Windows Server – Das umfassende Handbuch**. Bonn 2021, Rheinwerk Verlag.<br />
+  Ein ebenso ausführliches Handbuch zur neuesten Serverversion von Microsoft Windows, das alle Serverrollen und Administrationswerkzeuge behandelt.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/windows-server-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3GDp6j0)
+- Kofler, Michael: **Linux. Das umfassende Handbuch**, 18. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+  Michael Kofler, einer der vielseitigsten deutschsprachigen EDV-Buchautoren, widmet sich auch in der neuen Auflage seines bekannten Standardwerks allen relevanten Themen zur erfolgreichen Inbetriebnahme und Anwendung eines Linux-Systems.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/linux-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/48dG979)
+- Kofler, Michael: **Linux Kommandoreferenz**, 5. Auflage. Bonn 2020, Rheinwerk Verlag.<br />
+  Kompakte Referenz zu allen wichtigen Befehlen und Tools des Betriebssystems Linux.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/linux-kommandoreferenz-shell-befehle-von-a-bis-z/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/47PTUsO)
+### Webressourcen
+- **WinTotal**<br />
+  [https://www.wintotal.de](https://www.wintotal.de)<br />
+  Portal mit Praxisinformationen zu Microsoft Windows.
+- **Windows Server 2012 R2 – Das umfassende Handbuch.**<br />
+  [https://openbook.rheinwerk-verlag.de/windows_server_2012r2/](https://openbook.rheinwerk-verlag.de/windows_server_2012r2/)<br />
+  Der HTML-Volltext des Buchs Windows Server 2012 R2 von Ulrich B. Boddenberg, 4. Auflage. Bonn 2014, Rheinwerk Verlag. Wie alle Rheinwerk-Openbooks kann das Buch online gelesen oder vollständig heruntergeladen werden. Der Band beschreibt die Einrichtung eines Windows-Server-2012-R2-basierten Windows-Netzwerks mit Active Directory, Exchange Server, Office und mehr.
+- **Ubuntu GNU/Linux**<br />
+  [https://openbook.rheinwerk-verlag.de/ubuntu](https://openbook.rheinwerk-verlag.de/ubuntu)<br />
+  Volltext des Buchs Ubuntu GNU/Linux von Marcus Fischer, 7. Auflage. Bonn 2012, Rheinwerk Verlag (vormals Galileo Press). Das Buch beschreibt den Einsatz der beliebten Linux-Distribution Ubuntu.
