@@ -104,3 +104,22 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
 - **Ubuntu GNU/Linux**<br />
   [https://openbook.rheinwerk-verlag.de/ubuntu](https://openbook.rheinwerk-verlag.de/ubuntu)<br />
   Volltext des Buchs Ubuntu GNU/Linux von Marcus Fischer, 7. Auflage. Bonn 2012, Rheinwerk Verlag (vormals Galileo Press). Das Buch beschreibt den Einsatz der beliebten Linux-Distribution Ubuntu.
+
+## Grundlagen der Programmierung
+### Bücher
+- Ullenboom, Christian: **Java ist auch eine Insel**, 17. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+  Umfassender, methodischer und praxisorientierter Überblick über fast alle Aspekte der Programmierung mit dem Java SDK.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/java-ist-auch-eine-insel/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3Nh6wAL)
+- Ernesti, Johannes; Kaiser, Peter: **Python 3 – Das umfassende Handbuch**, 7. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+  Sehr gründliche Einführung und Referenz zu allen wichtigen Aspekten der Skriptsprache Python.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/python-3-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/46TPrUK)
+### Webressourcen
+- **Stack Overflow**<br />
+  [https://www.stackoverflow.com](https://www.stackoverflow.com)<br />
+  *Die* Ressource für die Programmierung schlechthin: Praktisch jede Frage, die Entwickler*innen aller Sprachen und Technologien haben könnten, wurde hier bereits beantwortet. Ein Voting-System sorgt dafür, dass gute und sinnvolle Antworten zuerst angezeigt werden.
+- **Python-Kurs**<br />
+  [https://www.python-kurs.eu/](https://www.python-kurs.eu/)<br />
+  Website des Informatikers und Buchautors Bernd Klein mit verschiedenen sehr ausführlichen Python-Tutorials, aus denen verschiedene Bücher aus dem Hanser Verlag entstanden sind (etwa "Numerisches Python", siehe unter "Weitere Konzepte der Programmierung").
+
