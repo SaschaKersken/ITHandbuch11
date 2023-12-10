@@ -67,7 +67,7 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
   Dieser Band behandelt ausführlich und fundiert die theoretische Seite der Hardware und der Rechnerarchitektur, indem er nacheinander die verschiedenen Ebenen dieses Aufbaus betrachtet.
   <br />[Bei Amazon bestellen](https://amzn.to/4acEm3W)
 ### Webressourcen
-- **Tom’s Hardware Guide**
-  [https://www.tomshardware.com](https://www.tomshardware.com)
+- **Tom’s Hardware Guide**<br />
+  [https://www.tomshardware.com](https://www.tomshardware.com)<br />
   Einkaufsberatung, Praxistests, Tipps und Lexikon zu aktueller PC-Hardware.
 
