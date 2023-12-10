@@ -123,3 +123,86 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
   [https://www.python-kurs.eu/](https://www.python-kurs.eu/)<br />
   Website des Informatikers und Buchautors Bernd Klein mit verschiedenen sehr ausführlichen Python-Tutorials, aus denen verschiedene Bücher aus dem Hanser Verlag entstanden sind (etwa "Numerisches Python", siehe unter "Weitere Konzepte der Programmierung").
 
+## Algorithmen und Datenstrukturen
+- Sedgewick, Robert; Wayne, Kevin: **Algorithmen**, 4. Auflage. München 2014, Pearson Studium.<br />
+  Sehr umfassendes Handbuch, das zahlreiche gängige Algorithmen ausführlich erklärt und in Java implementiert.
+  <br />[Bei Amazon bestellen (deutsche Ausgabe)](https://amzn.to/41daBfn)
+  <br />[Bei Amazon bestellen (englische Ausgabe)](https://amzn.to/3RhpdWj)
+- Kopec, David: **Algorithmen in Python**. Bonn 2020, Rheinwerk Verlag.<br />
+  Ein sehr praxisorientiertes und unterhaltsames Buch, das verschiedenste klassische und moderne Algorithmen verständlich erklärt und in Python implementiert. Ich hatte die Ehre und das Vergnügen, es aus dem Englischen übersetzen zu dürfen.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/algorithmen-in-python-32-klassiker-vom-damenproblem-bis-zu-neuronalen-netzen/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3RjF5aM)
+- Kopec, David: **Algorithmen in Java**. Bonn 2021, Rheinwerk Verlag.<br />
+  Dieselben Algorithmen und Erläuterungen, aber in Java implementiert.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/algorithmen-in-java/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3uQGQVs)
+
+## Weitere Konzepte der Programmierung
+- Friedl, Jeffrey E. F.: **Mastering Regular Expressions**, 3. Auflage. Sebastopol 2006, O’Reilly Media.<br />
+  Eine ausführliche Referenz zur Anwendung regulärer Ausdrücke in verschiedenen Programmiersprachen mit zahlreichen Praxisbeispielen.
+  <br />[Bei Amazon bestellen](https://amzn.to/41kYYmr)
+- Klein, Bernd: **Numerisches Python**, 2. Auflage. München 2023, Hanser Verlag.<br />
+  Handbuch zu NumPy und verwandten mathematischen Python-Bibliotheken mit vielen Beispielen und Erläuterungen mathematischer Hintergründe. Die bereits genannte Website des Autors, [https://www.python-kurs.eu/](https://www.python-kurs.eu/), lohnt ebenfalls einen Besuch.
+  <br />[Bei Amazon bestellen](https://amzn.to/3tdA8IB)
+
+## Datenanalyse, Machine Learning, künstliche Intelligenz
+- Turing, Alan: **Computing Machinery And Intelligence/Können Maschinen denken?**. Stuttgart 2021, Reclam.<br />
+  Turings berühmter Aufsatz von 1950 in zweisprachiger Ausgabe (Deutsch/Englisch) mit zahlreichen Zusatzmaterialien. Ein Meilenstein der KI-Forschung; hier wurde unter anderem der berühmte Turing-Test konzipiert.
+  <br />[Bei Amazon bestellen](https://amzn.to/3RxxM0x)
+- Hofstadter, Douglas: **Gödel, Escher, Bach – An Eternal Golden Braid**. New York 1979, Basic Books.<br />
+  Was haben die Unvollständigkeitssätze von Kurt Gödel, die geometrisch unmöglichen Zeichnungen von M. C. Escher und die Fugen von Johann Sebastian Bach miteinander zu tun? Und wie hängt all das mit natürlicher und künstlicher Intelligenz zusammen? Das alles wird in diesem unterhaltsamen und geistreichen Buch aus verschiedensten Blickwinkeln wie Logik, Zahlentheorie, formalen und natürlichen Sprachen sowie weiteren Aspekten der Philosophie untersucht. Zwischen den Kapiteln befinden sich platonische Dialoge zwischen Achilles und der Schildkröte, die ursprünglich von Lewis Carroll erdacht wurden (in Anlehnung an ein antikes mathematisches Paradoxon), und einigen anderen Beteiligten. Ein Klassiker der Kognitions- und KI-Literatur, der mit dem Pulitzer-Preis ausgezeichnet wurde.<br />
+  Die deutsche Ausgabe erschien bei Klett-Cotta. Da ich sie nicht gelesen habe, kann ich nicht beurteilen, wie gut die hintergründigen Wortspiele des Originals übertragen wurden.
+  <br />[Bei Amazon bestellen (englische Ausgabe)](https://amzn.to/47SxlUe)
+  <br />[Bei Amazon bestellen (deutsche Ausgabe)](https://amzn.to/3RAOJHk)
+- McKinney, Wes: **Datenanalyse mit Python**, 3. Auflage. Heidelberg 2023, O’Reilly.<br />
+  Vermittelt praxisnah die Arbeit mit Python-Bibliotheken zur Datenanalyse.
+  <br />[Bei Amazon bestellen](https://amzn.to/3t8HGwl)
+- Wilmott, Paul: **Grundkurs Machine Learning**. Bonn 2020, Rheinwerk Verlag.<br />
+  Dieses Buch enthält keinen Code, sondern erläutert auf verständliche Weise die mathematischen Grundlagen aller gängigen Machine-Learning-Algorithmen.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/grundkurs-machine-learning/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/46NVgTr)
+- Müller, Andreas C.; Guido, Sarah: **Einführung in Machine Learning mit Python**. Heidelberg 2017, O’Reilly.<br />
+  Dieses Buch führt in die wichtigsten Algorithmen und Python-Module für Machine Learning ein.
+  <br />[Bei Amazon bestellen](https://amzn.to/3uZl0Pu)
+- Albon, Chris: **Machine Learning Kochbuch**. Heidelberg 2019, O’Reilly.<br />
+  Die O’Reilly-Kochbücher sind im wahrsten Sinne des Wortes Rezeptsammlungen: Für verschiedene Bereiche eines Themas werden typische Problemstellungen gesammelt, zu denen jeweils Lösungen mit ausführlicher Diskussion angeboten werden. Das vorliegende Buch kümmert sich um typische Probleme des Machine Learning, die mit gängigen Python-Modulen gelöst werden.
+  <br />[Bei Amazon bestellen](https://amzn.to/47OS3nT)
+- Steinwendner, Joachim; Schwaiger, Roland: **Neuronale Netzwerke programmieren mit Python**, 2. Auflage. Bonn 2020, Rheinwerk Verlag.<br />
+  Grundlagen und Praxis künstlicher neuronaler Netzwerke werden in diesem Lehrbuch anschaulich mit vielen Beispielen erläutert.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/neuronale-netze-programmieren-mit-python/?GPP=kersken)
+- Shane, Janelle: **You Look Like A Thing and I Love You**. Boston 2019, Little, Brown and Company.<br />
+  Ein sehr unterhaltsames Buch darüber, wie sich künstliche Intelligenz irren kann und schräge, überraschende oder lustige Ergebnisse liefert. Das Buch hat jedoch durchaus einen praktischen Nutzen: Wer die Fallstricke kennt, kann sie vermeiden und bessere KI-Modelle programmieren. Die deutsche Übersetzung erschien 2021 unter dem Titel »Künstliche Intelligenz – Wie sie funktioniert und woran sie scheitert« bei O’Reilly.
+  <br />[Bei Amazon bestellen (englische Ausgabe)](https://amzn.to/3tdxWkq)
+  <br />[Bei Amazon bestellen (deutsche Ausgabe)](https://amzn.to/47NkfaQ)
+- Misselhorn, Catrin: **Grundfragen der Maschinenethik**. Stuttgart 2018, Reclam.<br />
+  Je mehr Entscheidungs- und Gestaltungsfreiheit künstliche Intelligenzen und Roboter haben, desto wichtiger ist es, dass ethische Maßstäbe für sie – oder vielmehr für die Menschen, die sie in die Welt setzen – gelten. Das Buch bietet eine kompakte Einführung in verschiedene Aspekte dieser Problematik.
+  <br />[Bei Amazon bestellen](https://amzn.to/41iTCbs)
+- Kersken, Sascha: **Daten- und Prozessanalyse für Fachinformatiker*innen**. Bonn 2021, Rheinwerk Verlag.<br />
+  Dieses Buch geht spezifisch auf die Ausbildungsinhalte des neuen IT-Ausbildungsgangs Daten- und Prozessanalyse (FIDP) ein. Die Themen Datenanalyse, Machine Learning und künstliche Intelligenz bilden dabei einen besonderen Schwerpunkt und werden wesentlich ausführlicher behandelt als im vorliegenden Buch möglich.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/daten-und-prozessanalyse-fuer-fachinformatiker/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/4ahwspO)
+
+## Software-Engineering
+- Kecher, Christoph; Salvanos, Alexander: **UML 2.5 – Das umfassende Handbuch, 7. Auflage**. Bonn 2021, Rheinwerk Verlag.<br />
+  Sehr gründlich und kompetent erläutert dieses Handbuch sämtliche Diagrammtypen der Unified Modeling Language anhand praktischer Beispiele.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/uml-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3NoaF69)
+- Gamma, Erich; Helm, Richard; Johnson, Ralph E.; Vlissides, John: **Design Patterns**. Reading 1997, Addison-Wesley.<br />
+  Der Klassiker zum Thema Entwurfsmuster – nach einem verständlichen Einstieg in den Umgang mit Entwurfsmustern wird ein Katalog von 23 zeitlosen und überaus nützlichen Mustern präsentiert, die wohl alle Entwickler*innen eines Tages benötigen werden.
+  <br />[Bei Amazon bestellen](https://amzn.to/3uPpaJP)
+- Freeman, Elizabeth; Freeman, Eric; Sierra, Kathy: **Entwurfsmuster von Kopf bis Fuß**, 2. Auflage. Heidelberg 2021, O’Reilly Verlag.<br />
+  Dieses Buch beschäftigt sich nach dem Schema der modernen »Von-Kopf-bis-Fuß«-Reihe mit Design Patterns.
+  <br />[Bei Amazon bestellen](https://amzn.to/47RBpnV)
+- Fowler, Martin: **Refactoring**, 2. Auflage. Reading 2019, Addison-Wesley.<br />
+  Dieses Buch lehrt die Kunst der Umstrukturierung in vorhandenem Code. Auf diese Weise können Sie Schritt für Schritt schlechtes Codedesign verbessern und historischen Ballast aus Programmen abwerfen.
+  <br />[Bei Amazon bestellen](https://amzn.to/3NmKEnA)
+- Beck, Kent: **Test Driven Development by Example**. Reading 2002, Addison-Wesley.<br />
+  An durchgehenden, praxisnahen Beispielen demonstriert Kent Beck die Vorteile der »Test first«-Strategie mit xUnit-Frameworks. Nach dem Schema »Red – Green – Refactor« wird zuerst ein Unit-Test geschrieben, der fehlschlagen muss. Anschließend wird Code hinzugefügt, der den Test erfüllt. Schließlich werden durch Refactoring Duplikate und Ungenauigkeiten entfernt. Das Ergebnis: Sie gelangen in überschaubaren Schritten zu stabilen, funktionierenden Programmen.
+  <br />[Bei Amazon bestellen](https://amzn.to/41eduMR)
+- Spinellis, Diomidis: **Code Reading**. Reading 2003, Addison-Wesley.<br />
+  Das wichtigste Kommunikationsmittel der Open-Source-Entwicklung ist der Quellcode selbst. Wer Open-Source-Projekte verstehen und möglicherweise etwas dazu beitragen möchte, muss den Code lesen können, das heißt in Tausenden oder gar Millionen Zeilen das Wesentliche finden können. Anhand realer Beispiele wie NetBSD oder Apache werden verschiedene Strategien vermittelt, die möglichst schnell und sicher zum Ziel führen.
+  <br />[Bei Amazon bestellen](https://amzn.to/47WQFA0)
+- Silverman, Richard E.: **git Pocket Guide**. Sebastopol 2013, O’Reilly & Associates.<br />
+  Versionskontrolle ist eine wichtige Aufgabe des Software-Engineerings, die insbesondere für die Zusammenarbeit in Entwicklungsteams unerlässlich ist. Dies ist ein kompaktes Büchlein zu den wichtigsten Anweisungen und Anwendungsfällen des inzwischen bedeutendsten Versionskontrollsystems git.
+  <br />[Bei Amazon bestellen](https://amzn.to/41f6Eqg)
+
