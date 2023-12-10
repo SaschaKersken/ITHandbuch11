@@ -10,10 +10,10 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
 - Sedgewick, Robert; Wayne, Kevin: **Computer Science: An Interdisciplinary Approach**. Reading 2016, Addison-Wesley.<br />
   Gutes, modernes Informatiklehrbuch mit dem Schwerpunkt Programmierung; die Implementierung aller Beispiele erfolgt in Java.
   <br />[Bei Amazon bestellen](https://amzn.to/48cOwjo)
-- Hübscher, Heinrich et al.: IT-Handbuch IT-Systemelektroniker/-in, Fachinformatiker/-in, 12. Auflage. Braunschweig 2022, Westermann.<br />
+- Hübscher, Heinrich et al.: **IT-Handbuch IT-Systemelektroniker/-in, Fachinformatiker/-in**, 12. Auflage. Braunschweig 2022, Westermann.<br />
   Sammlung von Kurzinformationen und Tabellen zu den wichtigsten Ausbildungsinhalten der IT-Berufe.
   <br />[Bei Amazon bestellen](https://amzn.to/41i7x1B)
-- Eschbach, Andreas: NSA – Nationales Sicherheits-Amt. Köln 2018, Bastei-Lübbe Verlag.<br />
+- Eschbach, Andreas: **NSA – Nationales Sicherheits-Amt**. Köln 2018, Bastei-Lübbe Verlag.<br />
   Ausnahmsweise kein Sachbuch, sondern ein Roman. Der spannende Alternate-History-Thriller geht davon aus, dass es Lord Charles Babbage gelungen ist, die Analytical Engine fertigzubauen – dementsprechend beginnt die Computergeschichte etwa 100 Jahre früher als in unserer Welt, während die sonstige Weltgeschichte zunächst parallel verläuft. So kommt es, dass Computer und das Internet (hier »Komputer« und »Weltnetz« genannt) ab 1933 den Nazis in die Hände fallen, die diese Technologien für eine noch entsetzlichere Perfektion ihrer Gewaltherrschaft benutzen, als aus unseren Geschichtsbüchern bekannt. So dient der Roman vor allem als abschreckendes Beispiel dafür, dass der grenzenlose Ausbau von Überwachungsinfrastruktur und -befugnissen auch in einer Demokratie gefährlich ist (vor allem kann das Ganze inklusive bereits gesammelter Daten einer später errichteten Diktatur in die Hände fallen), ist aber auch – wie bei Eschbach üblich – bezüglich der realen Geschichte brillant recherchiert und mitreißend geschrieben.
   <br />[Bei Amazon bestellen](https://amzn.to/3uYRQjs)
 ### Webressourcen
@@ -44,4 +44,30 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
 - **3Blue1Brown**<br />
   [https://www.3blue1brown.com/](https://www.3blue1brown.com/)<br />
   Mein Lieblings-YouTube-Kanal zum Thema Mathematik von Grant Sanderson. Spannende Themenauswahl, sehr gut und verständlich erklärt und exzellent visualisiert. Sehr empfehlenswert sind beispielsweise drei Videoreihen, die in diesem Stil in lineare Algebra, Analysis beziehungsweise Statistik einführen.
+
+## Elektronische und technische Grundlagen
+- Höwing, Marika: **Einführung in die Elektrotechnik**. Bonn 2021, Rheinwerk Verlag.<br />
+  Gelungene Mischung aus physikalischen und mathematischen Grundlagen auf der einen Seite und praktischer Einführung in Elektrizität, Elektrotechnik und Elektronik auf der anderen.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/einfuehrung-in-die-elektrotechnik/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3RBaXZU)
+- Neubert, Stephan: **Grundkurs Theoretische Informatik**. Bonn 2021, Rheinwerk Verlag.<br />
+  Gut verständlicher Überblick über die theoretische Informatik, insbesondere zu den Themen formale Sprachen, Algorithmen, Berechenbarkeit und Komplexität.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/grundkurs-theoretische-informatik/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3tai2an)
+- Hoffmann, Dirk W.: **Theoretische Informatik**, 5. Auflage. München 2022, Hanser.<br />
+  Meiner Ansicht nach das verständlichste und am besten gestaltete unter den ausführlichen, auch für das Studium geeigneten Büchern zur theoretischen Informatik.
+  <br />[Bei Amazon bestellen](https://amzn.to/4af8prF)
+- Nagel, Ernest; Newman, James R.: **Gödel's Proof**. New York 2001, NYU Press.<br />
+  Eine ohne Hochschulstudium der Mathematik verständliche Darstellung der gödelschen Unvollständigkeitssätze und ihres Beweises, den Kurt Gödel 1931 erbrachte.
+  <br />[Bei Amazon bestellen](https://amzn.to/41fiP6w)
+
+## Hardware
+### Buch
+- Tanenbaum, Andrew S.; Austin, Todd: **Rechnerarchitektur**, 6. Auflage. München 2014, Pearson Studium.<br />
+  Dieser Band behandelt ausführlich und fundiert die theoretische Seite der Hardware und der Rechnerarchitektur, indem er nacheinander die verschiedenen Ebenen dieses Aufbaus betrachtet.
+  <br />[Bei Amazon bestellen](https://amzn.to/4acEm3W)
+### Webressourcen
+- **Tom’s Hardware Guide**
+  [https://www.tomshardware.com](https://www.tomshardware.com)
+  Einkaufsberatung, Praxistests, Tipps und Lexikon zu aktueller PC-Hardware.
 
