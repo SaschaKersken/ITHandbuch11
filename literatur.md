@@ -206,3 +206,89 @@ Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provisio
   Versionskontrolle ist eine wichtige Aufgabe des Software-Engineerings, die insbesondere für die Zusammenarbeit in Entwicklungsteams unerlässlich ist. Dies ist ein kompaktes Büchlein zu den wichtigsten Anweisungen und Anwendungsfällen des inzwischen bedeutendsten Versionskontrollsystems git.
   <br />[Bei Amazon bestellen](https://amzn.to/41f6Eqg)
 
+## Datenbanken
+- Kofler, Michael: **Datenbanksysteme – Das umfassende Lehrbuch**. Bonn 2022, Rheinwerk Verlag.<br />
+  Ein für Ausbildung, Studium und Praxis geeignetes Lehrbuch zu allen wichtigen Aspekten der Datenbanktheorie, -modellierung und -programmierung.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/datenbanksysteme-das-umfassende-lehrbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/48cX7SO)
+
+## Server für Webanwendungen
+- Kersken, Sascha: **Apache 2.4**, 4. Auflage. Bonn 2012, Rheinwerk Verlag (vormals Galileo Press).<br />
+  Umfassende Anleitung zur Installation, Konfiguration, Programmierung und praktischen Anwendung des Apache-Webservers in der immer noch aktuellen Version 2.4. Inzwischen nur noch als E-Book erhältlich.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/apache-2-4-das-umfassende-handbuch/?GPP=kersken)
+- Liebel, Oliver: **Skalierbare Container-Infrastrukturen**, 4. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+  Softwarecontainer sind innerhalb kurzer Zeit zum unverzichtbaren Bestandteil von IT-Infrastrukturen geworden. Das Buch stellt verschiedene Lösungen für den Umgang mit Containern und ihrer automatisierten Verwaltung vor.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/skalierbare-container-infrastrukturen-das-handbuch-fuer-administratoren/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3Tex8q5)
+-	Öggl, Bernd; Kofler, Michael: **Docker – Das Praxisbuch für Entwickler und DevOps-Teams**, 3. Auflage. Bonn 2021, Rheinwerk Verlag.<br />
+  Dieses Buch beschäftigt sich konkret mit Docker aus der Sicht der Programmierung und der Administration.
+ 	<br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/docker-das-praxisbuch-fuer-entwickler-und-devops-teams/?GPP=kersken)
+ 	<br />[Bei Amazon bestellen](https://amzn.to/3Nhvd0g)
+
+## XML
+- Vonhoegen, Helmut: **XML – Einstieg, Praxis Referenz**, 9. Auflage. Bonn 2018, Rheinwerk Verlag.<br />
+  Eine gute und methodische Einführung in das XML-Format und die praktische Arbeit mit XML-Dokumenten. Nur noch als E-Book erhältlich.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/xml-einstieg-praxis-referenz/?GPP=kersken)
+
+## Webseitenerstellung mit HTML und CSS
+### Buch
+- Wolf, Jürgen: **HTML und CSS – Das umfassende Handbuch**, 5. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+  Äußerst umfangreiches Handbuch zu allen wichtigen Aspekten von HTML und CSS, einschließlich JavaScript und jQuery.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/html-und-css-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/4ahTUDm)
+### Webressourcen
+- **SelfHTML**<br />
+  [https://de.selfhtml.org](https://de.selfhtml.org)<br />
+  SelfHTML ist eine ausführliche Anleitung und Referenz zu HTML, CSS, JavaScript und weiteren Webthemen. Die Site wurde vor vielen Jahren von Stefan Münz begonnen und wird mittlerweile von einer mehrköpfigen Redaktion als Wiki gepflegt.
+
+## Webserveranwendungen
+### Buch
+- Wenz, Christian; Hauser, Tobias: **PHP 8 und MySQL – Das umfassende Handbuch**, 4. Auflage. Bonn 2021, Rheinwerk Verlag.<br />
+  Das bewährte Autorenteam Wenz und Hauser beschreibt in diesem Buch alles Wissenswerte zur Entwicklung leistungsfähiger Webanwendungen mit der aktuellen PHP-Version. Ich hatte das große Vergnügen, eine frühere Auflage des Buchs als Fachgutachter zu begleiten.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/php-und-mysql-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/47QM4PG)
+### Webressourcen
+- **Classic Computer Science Problems – PHP-Portierung**<br />
+  [https://github.com/SaschaKersken/ClassicComputerScienceProblemsInPhp](https://github.com/SaschaKersken/ClassicComputerScienceProblemsInPhp)
+  Nachdem ich im Jahr 2020 das Buch "Algorithmen in Python" (Originaltitel "Classic Computer Science Problems in Python") übersetzt hatte, habe ich alle Codebeispiele nach PHP und JavaScript portiert. Hier finden Sie die PHP-Version.
+
+## JavaScript und Ajax
+### Bücher
+- Ackermann, Philip: **JavaScript – Das umfassende Handbuch**, 3. Auflage. Bonn 2021, Rheinwerk Verlag.<br />
+  Das Buch beschreibt sehr gründlich alle Aspekte der Entwicklung mit aktuellen JavaScript-Techniken. Genau wie bei PHP 8 und MySQL war ich als Gutachter beteiligt (in diesem Fall an den ersten beiden Auflagen).
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/javascript-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3GDgetC)
+- Ackermann, Philip: **Professionell entwickeln mit JavaScript**: Design, Patterns, Praxistipps, 2. Auflage. Bonn 2018, Rheinwerk Verlag.<br />
+  Dieses Buch betrachtet JavaScript unter dem Aspekt der modernen Softwareentwicklung, was zu robusteren und sichereren Webanwendungen führt.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/professionell-entwickeln-mit-javascript-design-patterns-praxistipps/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3t8PGxp)
+- Ackermann, Philip: **Fullstack-Entwicklung – Das Handbuch für Webentwickler**. Bonn 2023, Rheinwerk Verlag.<br />
+  Alle Aspekte der Webentwicklung für Frontend (HTML, CSS, JavaScript) und Backend (schwerpunktmäßig ebenfalls JavaScript in Form von Node.js, aber auch zum Beispiel PHP) werden in diesem Buch behandelt. Die neue Auflage durfte ich als Fachgutachter begleiten.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/fullstack-entwicklung-das-handbuch-fuer-webentwickler/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3NltJC8)
+- Springer, Sebastian: **Node.js – Das umfassende Handbuch**, 4. Auflage. Bonn 2022, Rheinwerk Verlag.<br />
+  Node.js ist ein Framework für serverseitiges JavaScript, das zur Implementierung sehr performanter Webservices und anderer Netzwerkdienste genutzt werden kann. Das Buch erläutert die Funktionsweise von Node.js sehr anschaulich.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/nodejs-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/47SrBK8)
+- Springer, Sebastian: **React – Das umfassende Handbuch**, 2. Auflage. Bonn 2023, Rheinwerk Verlag.<br />
+Ausführlich und praxisorientiert alles Wichtige über das JavaScript-Framework React.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/react-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3TeB36g)
+- Bieh, Manuel: **React – lernen und verstehen**. Selfpublishing, 2019.<br />
+  Ein gründlicher Überblick über die wichtigsten Möglichkeiten von React.js mit vielen Beispielen. Unter [https://lernen.react-js.dev](https://lernen.react-js.dev) können Sie das Buch kostenlos online lesen, und bei Gefallen können Sie den Autor durch den Kauf des E-Books oder des gedrickten Buchs unterstützen.
+### Webressourcen
+- **Classic Computer Science Problems – JavaScript-Portierung**<br />
+  [https://github.com/SaschaKersken/ClassicComputerScienceProblemsInJavaScript](https://github.com/SaschaKersken/ClassicComputerScienceProblemsInJavaScript)<br />
+  Nachdem ich im Jahr 2020 das Buch "Algorithmen in Python" (Originaltitel "Classic Computer Science Problems in Python") übersetzt hatte, habe ich alle Codebeispiele nach PHP und JavaScript portiert. Hier finden Sie die JavaScript-Version.
+
+## Computer- und Netzwerksicherheit
+- Eckert, Claudia: **IT-Sicherheit**, 11. Auflage. München 2023, De Gruyter Oldenbourg.<br />
+  Umfangreiches, eher akademisch orientiertes Lehrbuch zu vielen wichtigen Themen der Computer- und Netzwerksicherheit. Hier geht es mehr darum, die Thematik von Grund auf zu verstehen, als um praktische Anleitungen, die schnell veralten.
+  <br />[Bei Amazon bestellen](https://amzn.to/3RpD6SC)
+- Kofler, Michael et al.: **Hacking & Security – Das umfassende Handbuch**, 3. Auflage. Bonn 2022, Rheinwerk Verlag<br />
+  Praxisorientiertes Handbuch, das zunächst erläutert, wie Hacker und Cracker arbeiten, um anschließend beim Aufbau von Sicherheitsmaßnahmen dagegen behilflich zu sein.
+  <br />[Bei Rheinwerk bestellen](https://www.rheinwerk-verlag.de/hacking-und-security-das-umfassende-handbuch/?GPP=kersken)
+  <br />[Bei Amazon bestellen](https://amzn.to/3teP2ys)
+- Paar, Christoph; Pelzl, Jan: **Kryptografie verständlich**. Heidelberg 2016, Springer Vieweg.<br />
+  Gutes Lehrbuch über alle wichtigen Aspekte der Kryptografie, von den mathematischen Grundlagen mitsamt anschaulicher Beschreibung der Algorithmen bis zum Praxiseinsatz.
+  <br />[Bei Amazon bestellen](https://amzn.to/478I9g5)
