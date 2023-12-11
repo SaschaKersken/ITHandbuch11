@@ -1,6 +1,5 @@
 # Kommentiertes Literatur- und Linkverzeichnis
-_Hinweise_: Die Links zu Amazon und zum Rheinwerk Verlag sind Affiliate-Links. Das bedeutet, dass ich eine Provision erhalte, wenn Sie die Bücher darüber bestellen.<br />
-Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provision gleich.<br />
+_Hinweise_: Die Links zu Amazon und zum Rheinwerk Verlag sind Affiliate-Links. Das bedeutet, dass ich eine Provision erhalte, wenn Sie die Bücher darüber bestellen. Für Sie ändert sich dadurch nichts; der Preis ist mit oder ohne diese Provision gleich.<br />
 <br />Bei Rheinwerk-Büchern lohnt es sich stets, sie über den Verlag statt bei Amazon zu bestellen, denn die Lieferung erfolgt schnell, versandkostenfrei - und vor allem können Sie für nur 5 Euro Aufpreis auf das gedruckte Buch ein Bundle erwerben, in dem das zugehörige E-Book gleich mit enthalten ist. Beim IT-Handbuch mit über 1.400 Seiten ist es beispielsweise praktisch, es ohne schweres Schleppen überall hin mitnehmen zu können.<br />
 <br />Ganz allgemein gilt, dass viele Fachbücher sehr teuer sind - oft je spezialisierter, desto teurer. Es lohnt sich, öffentliche Bibliotheken (inklusive Onleihe, also E-Book-Ausleihe) in Anspruch zu nehmen oder zu überprüfen, ob Berufsschule, (Fach-)Hochschule oder Ausbildungsbetrieb Online-Zugänge zu Fachliteratur abonniert haben.
 
