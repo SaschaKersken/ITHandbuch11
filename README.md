@@ -12,6 +12,8 @@ Einige Lösungen folgen noch, denn sie werden mit ausführlichen Erläuterungen 
 
 [Errata](errata.md)
 
+[Kommentiertes Literatur- und Linkverzeichnis](https://github.com/SaschaKersken/ITHandbuch11/blob/main/literatur.md)
+
 Informationen und Materialien (Listing, Lösungen) finden Sie auch [hier](https://www.rheinwerk-verlag.de/it-handbuch-fur-fachinformatikerinnen_5728/). Klicken Sie dort auf den Reiter "Materialien", um die Materialien zur aktuellen Auflage herunterzuladen, und auf den darunter befindlichen Link "Hier finden Sie die Materialien zu früheren Auflagen des Buches", um die Materialien zu früheren Auflagen zu erhalten.
 
 Fragen, Anmerkungen oder Errata zum Buch bitte per E-Mail an [it-handbuch@sascha-kersken.de](mailto:it-handbuch@sascha-kersken.de).<br />
