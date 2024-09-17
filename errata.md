@@ -2,6 +2,17 @@
 Fehler im Buch werden bei Bekanntwerden auf dieser Seite eingetragen.
 ## Im 1. korrigierten Nachdruck (Ende 2023) noch vorhanden ##
 
+### S. 38, unten ###
+Al Chwarizmi lebte im 8. bis 9. Jahrhundert (etwa 780 bis 850), nicht wie dort irrtümlich vermerkt 9. bis 10.
+
+### S. 111, oben ###
+Die Seite 110 unten gezeigte Matrix wird hier transponiert, dabei wird der ursprüngliche Eintrag -6 jedoch versehentlich 6. Korrekt muss es wie folgt lauten:
+
+```
+A^T = |-2  4 -6|
+      | 3 -2  1|
+```
+
 ### S. 117, Mitte ###
 Beim zweiten Schritt ("Die zweite Zeile mit -1/2 multiplizieren") muss das Ergebnis beim dritten Eintrag in der zweiten Zeile der Matrix 3/2 statt -3/2 lauten. Im nächsten Schritt wird aber korrekt mit 3/2 weitergerechnet.
 
@@ -12,6 +23,9 @@ Im ersten Lösungsschritt muss auf beiden Seiten der Gleichung 5 abgezogen werde
 <=> -2x = -5 | :(-2)<br />
 <=> x = 5/2
 
+### S. 657, unten ###
+
+Es muss ```lastname_firstname = pattern.sub()``` statt ```lastname_firstname = muster.sub(…)``` heißen.
 ## Nur im Erstdruck (Juni 2023) ##
 
 ### S. 86, Abbildung 2.2 ###
